@@ -95,6 +95,12 @@ h2{
 	transition: 1s linear;
  }
  
+ .code{
+	 position: relative;
+	 left: 150px;
+	 width: 800px;
+ }
+
  
  
  
