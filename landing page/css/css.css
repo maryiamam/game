@@ -1,0 +1,84 @@
+body{
+	background: rgb(235, 242, 251);
+	margin: 0 70px;
+	font-size: 18px;
+}
+
+header{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	padding: 20px 0 0 0;
+	height: 220px;
+}
+
+
+.pi{
+	position: relative;
+	top: -150px;
+	right: 10px;
+}
+
+ .container {
+	position: relative;
+	top: -30px;
+	width: 80%;
+    margin: auto;
+}
+
+ .carousel-inner > .item > a > img, .carousel-inner > .item > img{
+	width: 80%;
+    margin: auto;
+ }
+
+.life{
+	position: relative;
+	top: -280px;
+	width: 310px;
+	color: white;
+	margin: 20px auto;
+	font-size: 50px;
+}
+
+.life, h2{
+	font-family: Segoe Script;	
+}
+
+h2, p{
+	position: relative;
+	top: 10px;
+	width: 60%;
+	margin: 20px auto;
+	color: rgb(39, 86, 120);
+}
+
+h2{
+	color: rgb(13, 29, 40);
+	font-weight: bold;
+}
+
+ .controls{
+	 position: relative;
+	 left: 235px;
+	 width: 800px;
+	 margin: auto 0;
+ }
+ 
+ .phaser{
+	 position: relative;
+	 right: 140px;
+	 display: inline-block;
+ }
+ 
+ p{
+	 font-family: Century Gothic;
+ }
+ 
+ p.phaser{
+	 position: relative;
+	 left: 230px;
+ }
+ 
+ a{
+	 border: none;
+ }
