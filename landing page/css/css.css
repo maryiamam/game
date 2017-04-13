@@ -38,6 +38,12 @@ header{
 	color: white;
 	margin: 20px auto;
 	font-size: 50px;
+	text-decoration: none;
+}
+
+.life:hover{
+	color: rgb(76, 179, 264);
+	transition: 0.3s linear;
 }
 
 .life, h2{
@@ -82,3 +88,53 @@ h2{
  a{
 	 border: none;
  }
+ 
+ a:hover{
+	text-decoration: none;
+	color: rgb(100, 100, 100);
+	transition: 1s linear;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:100%;
+	background:url(../img/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../img/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
